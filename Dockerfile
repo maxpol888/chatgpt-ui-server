@@ -26,7 +26,7 @@ ENTRYPOINT ["./entrypoint.sh"]
 EXPOSE 8000
 
 
-FROM nginx:1.22-alpine as web-server
+FROM nginx:1.27.3-alpine as web-server
 
 WORKDIR /app
 
